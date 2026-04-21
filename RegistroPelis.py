@@ -3,7 +3,6 @@
 import customtkinter as ctk
 from CTkTable import *
 import pandas as pd
-import os
 import pywal as pyw
 
 import Notificaciones as notis
@@ -209,6 +208,5 @@ colores = coloresPywal()
 aplicarColores(vnt, frameT, tabla, frame_btn, entry_pelicula, entry_fecha, entry_director, chk_vista, btn_add, btn_del, btn_save,
                frame_editar, entry_fila, entry_columna, entry_editar, btn_editar, btn_borrar, colores)
 
-os.system("bspc rule -a Tk -o desktop=focused state=floating")
 vnt.mainloop()
 
